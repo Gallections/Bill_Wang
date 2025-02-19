@@ -5,7 +5,7 @@ import NavBarItem from './NavBarItem';
 
 function NavBar({ onHover, onOut, mode, rightMargin}) {
 
-    const navBarClassStyle = "cursor-pointer transition-all duration-300 border-black ease-in-out h-15 mr-[2.5rem] flex flex-row p-[0.75rem] ml-auto rounded-[7.5rem] border-[0.2rem] items-center justify-center hover:border-[#FE6E00]"
+    const navBarClassStyle = "navBar cursor-pointer transition-all duration-300 ease-in-out h-15 mr-[2.5rem] flex flex-row p-[0.75rem] ml-auto rounded-[7.5rem] border-[0.2rem] items-center justify-center hover:border-[#FE6E00]"
     const [isActive, setIsActive] = useState(null);
 
     const handleActiveClick = (item) => {

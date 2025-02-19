@@ -5,7 +5,7 @@ import { FaListUl } from "react-icons/fa";
 
 function NavBarIcon({rightMargin}) {
 
-    const navBarIconStyle = "transition-all duration-300 ease-in-out text-2xl cursor-pointer text-black hover:text-[#FE6E00]";
+    const navBarIconStyle = "transition-all duration-200 ease-in-out text-2xl cursor-pointer hover:text-[#FE6E00]";
 
     return (
         <>

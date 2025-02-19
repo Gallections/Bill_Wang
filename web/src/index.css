@@ -4,4 +4,22 @@
 @tailwind utilities;
 
 /* App.css or any global stylesheet */
+.darkTheme {
+    background-color: #0A0B2D;
+    color: white;
 
+}
+
+.lightTheme {
+    background-color: white;
+    color: #0A0B2D;
+}
+
+.darkTheme .navBar {
+    border-color: white;
+
+}
+
+.lightTheme .navBar {
+    border-color: #0A0B2D;
+}
