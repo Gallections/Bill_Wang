@@ -27,11 +27,12 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
                 {/* Need to insert NavbarItems here */}
                 {mode ? 
                 <>
-                    <NavBarItem title = 'About' isActive = {isActive === "About"} onClick = {() => handleActiveClick("About")} />
-                    <NavBarItem title = 'Experience' isActive = {isActive === "Experience"} onClick = {() => handleActiveClick("Experience")}/>
-                    <NavBarItem title = 'Skills' isActive = {isActive === "Skills"} onClick = {() => handleActiveClick("Skills")}/>
-                    <NavBarItem title = 'Awards' isActive = {isActive === "Awards"} onClick = {() => handleActiveClick("Awards")}/>
-                    <NavBarItem title = 'Projects' isActive = {isActive === "Projects"} onClick = {() => handleActiveClick("Projects")}/>
+                    <NavBarItem title = 'About' isActive = {isActive === "About"} link= "/" onClick = {() => handleActiveClick("About")} />
+                    <NavBarItem title = 'Experience' isActive = {isActive === "Experience"} link= "/experience" onClick = {() => handleActiveClick("Experience")}/>
+                    <NavBarItem title = 'Extracurricular' isActive = {isActive === "Extracurricular"} link= "/extracurricular" onClick = {() => handleActiveClick("Extracurricular")}/>
+                    <NavBarItem title = 'Skills' isActive = {isActive === "Skills"} link= "/skills" onClick = {() => handleActiveClick("Skills")}/>
+                    <NavBarItem title = 'Awards' isActive = {isActive === "Awards"} link= "/awards" onClick = {() => handleActiveClick("Awards")}/>
+                    <NavBarItem title = 'Projects' isActive = {isActive === "Projects"} link = "#" onClick = {() => handleActiveClick("Projects")}/>
                     <NavBarIcon rightMargin={rightMargin} />
                 </> :
                 <NavBarIcon rightMargin={rightMargin} />}

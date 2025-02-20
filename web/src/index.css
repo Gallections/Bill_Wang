@@ -17,9 +17,20 @@
 
 .darkTheme .navBar {
     border-color: white;
+    background-color: #0A0B2D;
 
 }
 
 .lightTheme .navBar {
     border-color: #0A0B2D;
+    background-color: white;
+}
+
+.darkTheme .introBox {
+    background-color: #4f5186;
+
+}
+
+.lightTheme .introBox {
+    background-color: #DBEAFE;
 }

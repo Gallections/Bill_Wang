@@ -22,7 +22,7 @@ function TopBarContainer() {
     
     return (
         <>
-            <div className = "p-1 flex flex-row items-center ml-8 mt-1">
+            <div className = "p-1 flex flex-row items-center ml-5 mt-1">
                 <Logo logoPath = {logo} />
                 <DarkLightMode isDarkMode={true} />
                 <NavBar mode= {hovered} onHover = {handleMouseEnter} onOut = {handleMouseLeave} rightMargin = {"0"}/>

@@ -47,7 +47,7 @@ function DarkLightMode({isDarkMode}) {
         <>
         {/* This is making sure that the dark mode can be switched */}
         {/* !!!TODO: toggle function is not implemented yet! */}
-        <div className = "p-3 ml-15">
+        <div className = "p-3 ml-10">
             {darkMode ? 
             (<FaSun className= {darkModeStyle} onClick = {toggleTheme} />) : 
             (<FaMoon className = {lightModeStyle}  onClick = {toggleTheme} />)
