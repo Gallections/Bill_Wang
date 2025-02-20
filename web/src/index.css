@@ -4,6 +4,11 @@
 @tailwind utilities;
 
 /* App.css or any global stylesheet */
+
+html {
+    scroll-behavior: smooth;
+}
+
 .darkTheme {
     background-color: #0A0B2D;
     color: white;
@@ -34,3 +39,23 @@
 .lightTheme .introBox {
     background-color: #DBEAFE;
 }
+
+.darkTheme .projectBg {
+    background-color: #4f5186;
+
+}
+
+.lightTheme .projectBg{
+    background-color: #DBEAFE;
+}
+
+.darkTheme .projectBox {
+    border-color: white;
+
+}
+
+.lightTheme .projectBox{
+    border-color: #0A0B2D
+}
+
+
