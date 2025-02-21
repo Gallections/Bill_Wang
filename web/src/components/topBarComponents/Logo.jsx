@@ -6,7 +6,7 @@ function Logo({logoPath}) {
     return (
         <>
             <div className = "p-3 mr-5">
-                <img src= {logoPath} alt = "logo" className = "w-15 h-15 rounded-1g shadow-md"></img>
+                <img src= {logoPath} alt = "logo" className = "w-20 h-20 rounded-1g"></img>
             </div>
         </>
     );

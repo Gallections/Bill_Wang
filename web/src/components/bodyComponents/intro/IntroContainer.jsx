@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 import "../../.././index.css"
-import profile from '../../.././assets/profile_example.png'
+import profile from '../../.././assets/profile.png'
 
 function IntroContainer() {
     return (

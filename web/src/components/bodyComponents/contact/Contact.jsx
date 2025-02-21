@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import InputBox from './InputBox';
 import TextareaBox from './TextareaBox';
 import emailjs from 'emailjs-com';
+import { isPhoneNumber, isEmail } from '../../../utils';
 
 function Contact() {
 
@@ -38,6 +39,14 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        if (!isEmail(formData.email)) {
+            alert("Invalid Email Address");
+            return;
+        }
+        if (formData.phone !== "" && !isPhoneNumber(formData.phone)) {
+            alert("Invalid Phone Number");
+            return;
+        }
         sendEmail(formData); // Function to send email
     };
 

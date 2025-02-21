@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react'
 import { SiGithub, SiLinkedin, SiX, SiInstagram, SiMailboxdotorg } from "react-icons/si";
 import { FaArrowUp } from "react-icons/fa";
+import logo from '../.././assets/logo.png'
 
 
 function FooterContainer() {
@@ -11,7 +12,7 @@ function FooterContainer() {
             <div className = "divider w-full h-[0.15rem]"></div>
             <div className = "w-auto h-auto mt-10 flex ml-5 flex-row items-center">
                 <h1 className = "text-xl font-medium">Bill Wang's Portfolio</h1>
-                {/* add a logo */}
+                <img src = {logo} className = "w-10 h-10 ml-5"></img>
             </div>
             <div className = "z-20 w-auto h-auto flex flex-row">
                 <div >
@@ -26,7 +27,7 @@ function FooterContainer() {
                 </div>
                 <button className="ml-auto mr-10 p-3">
                     <a href= "#Intro">
-                    <FaArrowUp className= "text-2xl hover:scale-130"/>
+                    <FaArrowUp className= "text-2xl hover:scale-130 hover:text-orange-400"/>
                     </a>
                 </button>
             </div>

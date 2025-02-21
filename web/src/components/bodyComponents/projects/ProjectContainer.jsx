@@ -6,6 +6,7 @@ import FootballAI from "../../.././assets/ai_football.png"
 import Recipe from "../../.././assets/recipe.jpg"
 import Gallections from "../../.././assets/gallections.png"
 import insightUBC from "../../.././assets/insightUBC.png"
+import website from "../../.././assets/Billy.png"
 
 function ProjectContainer() {
 
@@ -60,7 +61,7 @@ function ProjectContainer() {
                         link= "https://www.google.com/"
                         />
                     
-                    <Project imagePath={smiley} 
+                    <Project imagePath={website} 
                         title="Bill Wang's Portfolio" 
                         summary= "Billy's personal portfolio website that showcase his skills and experience that you are currently viewing!"
                         description= {`• Built a personal portfolio website using React and Tailwind CSS, ensuring structured and concise layout.

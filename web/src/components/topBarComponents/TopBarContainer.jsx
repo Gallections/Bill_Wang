@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import logo from '../.././assets/sample_logo.jpg'
+import logo from '../.././assets/logo.png'
 import Logo from './Logo'
 import '../.././index.css'
 import DarkLightMode from './DarkLightMode';
