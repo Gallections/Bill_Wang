@@ -69,7 +69,7 @@ function ProjectContainer() {
 \n• Implemented UI/UX design using Figma, refining layout and interactions for a consistent user experience.
 \n• Optimized performance by reducing re-renders by 30% through efficient state management with React hooks.`}
                         techStack={["React", "JavaScript", "HTML", "CSS", "tailwindcss", "Git", "GitHub"]}
-                        link= "https://gallections.github.io/Bill_Wang"
+                        link= "https://github.com/Gallections/Bill_Wang"
                         />
 
                     {/* <Project imagePath={smiley} 
