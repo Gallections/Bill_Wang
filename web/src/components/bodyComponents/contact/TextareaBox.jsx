@@ -16,11 +16,11 @@ function TextareaBox({placeholder, width, minHeight, name,  value, onChange}) {
                     name = {name}
                     value = {value}
                     onChange = {onChange}
-                    className = "w-full h-[90%] p-[0.5rem] rounded-[0.3rem]"
+                    className = "w-full h-[90%] p-[0.5rem] rounded-[0.3rem] outline-none placeholder-gray-400"
                     placeholder = {placeholder}
                     required
                 />
-                <div className = "mt-[0.2rem] w-full bg-white h-[0.1rem]"></div>
+                <div className = "decoration-line mt-[0.2rem] w-full bg-white h-[0.1rem]"></div>
             </div>
         </>
     );

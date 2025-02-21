@@ -7,6 +7,7 @@ import TopBarContainer from './topBarComponents/TopBarContainer'
 import '.././index.css'
 import SideBarContainer from './sideBarComponents/SideBarContainer'
 import BodyContainer from './bodyComponents/bodyContainer'
+import FooterContainer from './footerComponents/FooterContainer'
 
 function ProfileMain() {
 
@@ -24,10 +25,14 @@ function ProfileMain() {
                 </div>
 
                 {/* Content Section (Scrollable) */}
-                <div className="ml-20 mt-20 overflow-auto p-4">
+                <div className="sm:ml-20 mt-20 overflow-auto p-4 flex-grow">
                     {/* Add your content here, block below is just an example! */}
                     {/* <div className = "bg-green-400 w-30 h-30"></div>  */}
                     <BodyContainer />
+                </div>
+
+                <div className = "w-full h-auto">
+                    <FooterContainer />
                 </div>
             </div>
         </>

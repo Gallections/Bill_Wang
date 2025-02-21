@@ -33,6 +33,7 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
                     <NavBarItem title = 'Skills' isActive = {isActive === "Skills"} link= "/skills" onClick = {() => handleActiveClick("Skills")}/>
                     <NavBarItem title = 'Awards' isActive = {isActive === "Awards"} link= "/awards" onClick = {() => handleActiveClick("Awards")}/>
                     <NavBarItem title = 'Projects' isActive = {isActive === "Projects"} link = "#project-section" onClick = {() => handleActiveClick("Projects")}/>
+                    <NavBarItem title = 'Contact' isActive = {isActive === "Contact"} link = "#contactBox" onClick = {() => handleActiveClick("Contact")}/>
                     <NavBarIcon rightMargin={rightMargin} />
                 </> :
                 <NavBarIcon rightMargin={rightMargin} />}

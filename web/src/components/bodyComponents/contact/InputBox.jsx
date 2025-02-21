@@ -14,11 +14,11 @@ function InputBox({placeholder, width, height, name, value, onChange}) {
                     type= "text"
                     value = {value}
                     onChange = {onChange}
-                    className = "w-[100%] h-[85%] p-[0.5rem] rounded-[0.2rem]"
+                    className = "w-[100%] h-[85%] p-[0.5rem] rounded-[0.2rem] outline-none placeholder-gray-400"
                     placeholder= {placeholder} // note placeholder requires {} because we passed in with {} in its parent component
                     required
                 />
-                <div className = "mt-[0.2rem] w-full bg-blue-900 h-[0.12rem]">
+                <div className = "decoration-line mt-[0.2rem] w-full bg-blue-900 h-[0.1rem]">
                 </div>
             </div>
         </>

@@ -6,7 +6,7 @@ function IntroContainer() {
 
     return (
         <>
-            <div className = "introBox rounded-[1.1rem] flex flex-row w-[65rem] h-[30rem] mt-[1rem] gap-10 items-center justify-center">
+            <div id= "Intro" className = "introBox rounded-[1.1rem] flex flex-row w-[65rem] h-[30rem] mt-[1rem] gap-10 items-center justify-center">
                 <div className = "flex flex-col w-[30rem] h-[22rem] p-[2rem]">
                     <h1 className = "text-5xl font-semibold">Bill</h1>
                     <h1 className = "text-5xl font-semibold mt-[0.8rem] ">Wang</h1>

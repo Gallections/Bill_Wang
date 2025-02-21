@@ -7,6 +7,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-family: Inter;
 }
 
 .darkTheme {
@@ -55,7 +56,45 @@ html {
 }
 
 .lightTheme .projectBox{
-    border-color: #0A0B2D
+    border-color: #0A0B2D;
+}
+
+.darkTheme .decoration-line {
+    background: white;
+
+}
+
+.lightTheme .decoration-line {
+    background: #0A0B2D;
+}
+
+.darkTheme .contactBox {
+    background: rgba(217, 217, 217, 0.15);
+}
+
+.lightTheme .contactBox {
+    background: rgb(219, 234, 254, 0.5);
+}
+
+
+.lightTheme .footer {
+    background-color: #0A0B2D;
+    color: white;
+
+}
+
+.darkTheme .footer {
+    background-color: rgba(255, 255, 255, 0.959);
+    color: #0A0B2D;
+}
+
+.lightTheme .footer .divider {
+    background-color: white;
+
+}
+
+.darkTheme .footer .divider {
+    background-color: #0A0B2D;
 }
 
 
