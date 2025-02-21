@@ -58,7 +58,7 @@ function ProjectContainer() {
                         summary= "Unique Engine that manages UBC course and facility database with ease!"
                         description= {`Currently in the process of developing this project! Stay Tuned!`}
                         techStack={["TypeScript", "Mocha", "Chai", "Json", "React", "HTML", "CSS", "Git", "GitHub"]}
-                        link= "https://www.google.com/"
+                        link= "#"
                         />
                     
                     <Project imagePath={website} 
@@ -69,7 +69,7 @@ function ProjectContainer() {
 \n• Implemented UI/UX design using Figma, refining layout and interactions for a consistent user experience.
 \n• Optimized performance by reducing re-renders by 30% through efficient state management with React hooks.`}
                         techStack={["React", "JavaScript", "HTML", "CSS", "tailwindcss", "Git", "GitHub"]}
-                        link= "https://www.google.com/"
+                        link= "https://gallections.github.io/Bill_Wang"
                         />
 
                     {/* <Project imagePath={smiley} 

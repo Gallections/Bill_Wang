@@ -27,11 +27,11 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
                 {/* Need to insert NavbarItems here */}
                 {mode ? 
                 <>
-                    <NavBarItem title = 'About' isActive = {isActive === "About"} link= "#/" onClick = {() => handleActiveClick("About")} />
-                    <NavBarItem title = 'Experience' isActive = {isActive === "Experience"} link= "#/experience" onClick = {() => handleActiveClick("Experience")}/>
-                    <NavBarItem title = 'Extracurricular' isActive = {isActive === "Extracurricular"} link= "#/extracurricular" onClick = {() => handleActiveClick("Extracurricular")}/>
-                    <NavBarItem title = 'Skills' isActive = {isActive === "Skills"} link= "#/skills" onClick = {() => handleActiveClick("Skills")}/>
-                    <NavBarItem title = 'Awards' isActive = {isActive === "Awards"} link= "#/awards" onClick = {() => handleActiveClick("Awards")}/>
+                    <NavBarItem title = 'About' isActive = {isActive === "About"} link= "/" onClick = {() => handleActiveClick("About")} />
+                    <NavBarItem title = 'Experience' isActive = {isActive === "Experience"} link= "/experience" onClick = {() => handleActiveClick("Experience")}/>
+                    <NavBarItem title = 'Extracurricular' isActive = {isActive === "Extracurricular"} link= "/extracurricular" onClick = {() => handleActiveClick("Extracurricular")}/>
+                    <NavBarItem title = 'Skills' isActive = {isActive === "Skills"} link= "/skills" onClick = {() => handleActiveClick("Skills")}/>
+                    <NavBarItem title = 'Awards' isActive = {isActive === "Awards"} link= "/awards" onClick = {() => handleActiveClick("Awards")}/>
                     <NavBarItem title = 'Projects' isActive = {isActive === "Projects"} link = "#project-section" onClick = {() => handleActiveClick("Projects")}/>
                     <NavBarItem title = 'Contact' isActive = {isActive === "Contact"} link = "#contactBox" onClick = {() => handleActiveClick("Contact")}/>
                     <NavBarIcon rightMargin={rightMargin} />

@@ -2,14 +2,14 @@ import { useState } from 'react'
 import './index.css'
 import './components/ProfileMain'
 import ProfileMain from './components/ProfileMain'
-import {HashRouter as Router, Route, Routes} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Router>
+      <Router basename="/Bill_Wang">
         <ProfileMain />
       </Router>
     </>

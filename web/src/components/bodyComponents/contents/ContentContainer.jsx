@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import "../../.././index.css"
 import ContentPage from './ContentPage';
-import {HashRouter as Router, Route, Routes, useLocation} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes, useLocation} from 'react-router-dom';
 
 function ContentContainer() {
     // Adding useLocation makes sure it also scrolls to the sections that uses routers.
