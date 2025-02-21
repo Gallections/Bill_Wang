@@ -7,13 +7,13 @@ function FooterContainer() {
     return (
     <>
     {/* change the height to someting else */}
-        <div className = "footer border-boxing bg-black pt-5 w-full h-auto flex flex-col justify-center">
+        <div className = "z-20 footer border-boxing bg-black pt-5 w-full h-auto flex flex-col justify-center">
             <div className = "divider w-full h-[0.15rem]"></div>
             <div className = "w-auto h-auto mt-10 flex ml-5 flex-row items-center">
                 <h1 className = "text-xl font-medium">Bill Wang's Portfolio</h1>
                 {/* add a logo */}
             </div>
-            <div className = "w-auto h-auto flex flex-row">
+            <div className = "z-20 w-auto h-auto flex flex-row">
                 <div >
                     <h1 className = "mt-3 pl-5 text-lg font-medium">Contact</h1>
                     <div className = "mt-2 pl-5 flex flex-row items-center gap-5">

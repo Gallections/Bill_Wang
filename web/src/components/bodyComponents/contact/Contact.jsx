@@ -44,7 +44,7 @@ function Contact() {
 
     return (
         <>
-            <div id= "contactBox" className = " contactBox mt-20 rounded-[2rem] w-[65rem] min-h-[35rem] p-10 flex flex-col items-center justify-center ">
+            <div id= "contactBox" className = " z-10 contactBox mt-20 rounded-[2rem] w-[65rem] min-h-[35rem] p-10 flex flex-col items-center justify-center ">
                 <h1 className = "text-4xl font-medium">Let's Get In Touch!</h1>
                 <div className ="w-full h-auto flex flex-row items-center justify-center">
                     <p className = "mt-[1rem] text-base] mr-[0.5rem]">mosbill067@gmail.com | </p>

@@ -47,7 +47,7 @@ function Project({imagePath, title, description, summary, techStack, link}) {
         "CSS": <DiCss3 />,
         "React": <DiReact />,
         "Django": <DiDjango />,
-        "AWS": <DiAws />,
+        "AWS": <DiAws />,               
         "Git": <DiGit />,
         "PostgreSQL": <DiPostgresql />,
         "Numpy": <SiNumpy />,
@@ -95,11 +95,11 @@ function Project({imagePath, title, description, summary, techStack, link}) {
         "OpenAI": <SiOpenai />,
         "Json": <SiJson />,
         "Axios": <SiAxios />
-        }
+    }
 
     return (
         <>
-            <div className = "relative cursor-pointer w-[40%] rounded-[0.3rem] h-[26rem] bg-green-100 flex flex-col group">
+            <div className = "relative shadow-[0_5px_15px_rgba(0,0,0,0.35)] cursor-pointer w-[40%] rounded-[0.3rem] h-[26rem] bg-green-100 flex flex-col group">
             <a href={link} target="_blank" rel="noopener noreferrer" className="absolute w-[100%] h-[100%]">
                 <div className = "absolute group-hover:opacity-0 transition-opacity duration-300 w-[100%] h-[100%] rounded-[0.3rem] ">
                     <div className = "w-[100%] h-[70%] bg-red-200 rounded-t-[0.3rem]">
