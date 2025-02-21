@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "http://Gallections.github.io/Bill_Wang/",
+  "homepage": "https://Gallections.github.io/Bill_Wang/",
   "dependencies": {
     "@tailwindcss/vite": "^4.0.7",
     "emailjs-com": "^3.2.0",
