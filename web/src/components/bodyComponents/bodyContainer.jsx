@@ -9,7 +9,8 @@ function BodyContainer() {
 
     return (
         <>
-            <div className = "flex flex-col p-5 ml-5 mr-5 w-auto min-h-[35rem] items-center justify-center">
+            <div className = "flex flex-col p-5 ml-5 mr-5 w-auto h-[100%] items-center justify-center">
+                {/* min-h-[35rem] */}
                 <IntroContainer />
                 <ContentContainer />
                 <ProjectContainer />

@@ -7,7 +7,8 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: Inter;
+    font-family: "Nunito";
+
 }
 
 .darkTheme {
@@ -97,4 +98,15 @@ html {
     background-color: #0A0B2D;
 }
 
+.exp-block {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.darkTheme .exp-block {
+    background-color: #292b4e;
+}
+
+.lightTheme .exp-block {
+    background-color: whitesmoke;
+}
 

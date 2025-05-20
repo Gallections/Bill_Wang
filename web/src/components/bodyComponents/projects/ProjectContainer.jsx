@@ -7,6 +7,7 @@ import Recipe from "../../.././assets/recipe.jpg"
 import Gallections from "../../.././assets/gallections.png"
 import insightUBC from "../../.././assets/insightUBC.png"
 import website from "../../.././assets/Billy.png"
+import MathPaste from "../../.././assets/MathPaste.png"
 
 function ProjectContainer() {
 
@@ -15,6 +16,25 @@ function ProjectContainer() {
             <div id= "project-section" className = "projectBox shadow-[0_5px_15px_rgba(0,0,0,0.35)] mt-[5rem] pt-[3rem] pb-3 rounded-[2rem] pl-5 pr-5 border-4 w-[65rem] flex flex-col hover:">
                 <h1 className = "text-center text-4xl font-semibold">Projects</h1>
                 <div className = "w-[100%] flex flex-row mt-9 p-5 items-center flex-wrap gap-10 justify-center">
+                    <Project imagePath={MathPaste} 
+                        title="MathPaste" 
+                        summary= "Light weight Chrome Extension that makes pasting rendered math equations from AI to online notebooks with no format issues."
+                        description= {`•	A Chrome extension to bridge compatibility gaps between AI-rendered math equations and note-taking applications like Obsidian and Notion, enabling seamless integration for 500+ potential users.\n
+•	Designed the application interface using Figma, implementing the UI with JavaScript and CSS to ensure an intuitive user experience across 3 major note-taking platforms.\n
+•	Leveraged the Chrome Extension API to build core functionality, using JavaScript for backend logic to handle equation parsing and formatting, reducing manual formatting time by 80+%.
+`}
+                        techStack={["JavaScript", "Chrome", "HTML", "CSS", "Git", "GitHub"]}
+                        link= "https://www.youtube.com/watch?v=m4J2uIUJ6IE"
+                        />
+                    
+                    <Project imagePath={insightUBC} 
+                        title="Insight UBC Engine" 
+                        summary= "Unique Engine that manages UBC course and facility database with ease!"
+                        description= {`•    Database served 1,000+ users with real-time results and visual representations.\n•	Implemented core logic in TypeScript to process 10,000+ records across 500+ courses, and integrated intuitive design in React & Tailwind CSS.\n•	Engineered a custom query processor capable of handling nested conditions and logical operators, supporting complex real-time searches with sub-500ms response times.\n•	Processed and visualized over 10,000 academic records using Recharts and Decimal.js for precision.\n•	Developed RESTful API endpoints with Eexpress.js tested with Mocha; enforced code quality with ESLint, yarn, and modular architecture across 3,000+ lines of code.`}
+                        techStack={["TypeScript", "ExpressJS", "Postman", "Mocha", "Chai", "Json", "React", "HTML", "CSS", "Git", "GitHub"]}
+                        link= "https://youtu.be/RNDwqpOrVPk"
+                        />
+                    
                     <Project imagePath={YTDonloader} 
                         title="YouTube Download Engine" 
                         summary= "Download any YouTube video/playlist or audio with unlimited amount for free!"
@@ -53,13 +73,6 @@ function ProjectContainer() {
                         link= "https://gallections.github.io/"
                         />
 
-                    <Project imagePath={insightUBC} 
-                        title="Insight UBC Engine" 
-                        summary= "Unique Engine that manages UBC course and facility database with ease!"
-                        description= {`Currently in the process of developing this project! Stay Tuned!`}
-                        techStack={["TypeScript", "Mocha", "Chai", "Json", "React", "HTML", "CSS", "Git", "GitHub"]}
-                        link= "#"
-                        />
                     
                     <Project imagePath={website} 
                         title="Bill Wang's Portfolio" 
