@@ -8,7 +8,6 @@ import '.././index.css'
 import SideBarContainer from './sideBarComponents/SideBarContainer'
 import BodyContainer from './bodyComponents/bodyContainer'
 import FooterContainer from './footerComponents/FooterContainer'
-import bgImageDark from '.././assets/background.avif'
 
 function ProfileMain() {
 
@@ -20,14 +19,13 @@ function ProfileMain() {
                     <TopBarContainer />
                 </div>
 
-
                 {/* Sidebar (Fixed to the left) */}
                 <div className="fixed top-20 left-0 h-full w-16 z-20">
                     <SideBarContainer />
                 </div>
 
                 {/* Content Section (Scrollable) */}
-                <div className="sm:ml-20 mt-20 overflow-auto p-4 flex-grow z-20">
+                <div className="mt-20 overflow-auto w-full p-4 z-20">
                     {/* Add your content here, block below is just an example! */}
                     {/* <div className = "bg-green-400 w-30 h-30"></div>  */}
                     <BodyContainer />
@@ -37,7 +35,6 @@ function ProfileMain() {
                     <FooterContainer />
                 </div>
 
-                
             </div>
         </>
     )

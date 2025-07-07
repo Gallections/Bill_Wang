@@ -3,7 +3,6 @@ import logo from '../.././assets/logo.png'
 import Logo from './Logo'
 import '../.././index.css'
 import DarkLightMode from './DarkLightMode';
-import NavBarIcon from './navBar/NavBarIcon';
 import NavBar from './navBar/NavBar';
 
 function TopBarContainer() {
