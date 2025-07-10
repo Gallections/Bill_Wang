@@ -14,7 +14,7 @@ function IntroContainer() {
                     <h3 className = "written font-medium lg:text-[3vw] sm:text-[1rem]">Software Developer</h3>
                     
                     <p className = "text-[0.6rem] md:text-[1.3vw] lg:text-[1.3vw]">
-                    Hi! I am a software developer with experience in full-stack development, web development, and UI/UX design. I specialize in JavaScript, TypeScript, Python, Java, C++ and React, with a strong foundation in full-stack and front-end development. My work includes building user-friendly applications, integrating machine learning models, and optimizing user experiences.
+                    I'm a UBC student who loves building software that’s both functional and thoughtful. I dabble in full-stack development and emerging technologies, where I bring logic to life. I’m always experimenting, learning, and aiming to turn ideas into tools that matter.
                     </p>
                 </div>
 
