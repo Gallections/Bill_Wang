@@ -7,7 +7,7 @@ function NavBarItem({title, isActive, onClick, link}) {
     return (
         // need to change the color from black to white later on
         <>
-            <div className = {`cursor-pointer transition-all duration-300 ease-in-out font-medium text-base ml-3 mr-3 ${isActive ? 'text-orange-400 scale-110' : 'hover:text-orange-400 hover:scale-110'}`}
+            <div className = {`cursor-pointer w-[100%] p-2 border-b-2 md:border-0 text-center transition-all duration-300 ease-in-out font-medium text-base ml-3 mr-3 ${isActive ? 'text-orange-400 scale-110' : 'hover:text-orange-400 hover:scale-110'}`}
                 onClick = {onClick}>
                 {(title == "Projects" || title == "Contact") ?
                 <a href = {link}>

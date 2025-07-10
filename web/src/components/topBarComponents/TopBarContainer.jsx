@@ -21,10 +21,12 @@ function TopBarContainer() {
     
     return (
         <>
-            <div className = "p-1 flex flex-row items-center ml-5 mt-1">
+            <div className = "p-1 flex flex-row items-start justify-center ml-5 mt-1">
                 <Logo logoPath = {logo} />
-                <DarkLightMode isDarkMode={true} />
-                <NavBar mode= {hovered} onHover = {handleMouseEnter} onOut = {handleMouseLeave} rightMargin = {"0"}/>
+                <div className="flex items-center justify-center w-20 h-20">
+                    <DarkLightMode isDarkMode={true} />
+                </div>
+                <NavBar className="" mode= {hovered} onHover = {handleMouseEnter} onOut = {handleMouseLeave} rightMargin = {"0"}/>
             </div>
         </>
     );

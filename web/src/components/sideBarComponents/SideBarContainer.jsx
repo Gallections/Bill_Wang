@@ -10,7 +10,7 @@ function SideBarContainer() {
 
     return (
         <>
-            <div className = "flex flex-col w-12 p-2 ml-9 mt-[5rem] items-center justify-center">
+            <div className = "flex flex-col w-12 p-2 ml-2 sm:ml-9 mt-[5rem] items-center justify-center">
                 <SideBarItem icon = {<FaLinkedin className = {iconStyles} />} link="https://www.linkedin.com/in/bill-wxng/" />
                 <SideBarItem icon = {<FaGithub className = {iconStyles} />} link="https://github.com/Gallections" />
                 <SideBarItem icon = {<AiFillMail className = {iconStyles} />} link="mailto:mosbill067@gmail.com" />

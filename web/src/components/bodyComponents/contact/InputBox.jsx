@@ -4,7 +4,7 @@ function InputBox({placeholder, width, height, name, value, onChange}) {
 
     return (
         <>
-            <div className = "mt-[1.2rem] mr-[1rem] border-[0.1rem] rounded-[0.3rem] ml-[1rem] pt-[0.3rem] pr-[0.3rem] pb-[0.3rem] pl-[0.3rem]"
+            <div className = "mt-[1.2rem] sm:mr-[1rem] sm:ml-[1rem] border-[0.1rem] rounded-[0.3rem] pt-[0.3rem] pr-[0.3rem] pb-[0.3rem] pl-[0.3rem]"
                 style = {{
                     width,   // note that width and height are passed in as strings, so they work directly
                     height

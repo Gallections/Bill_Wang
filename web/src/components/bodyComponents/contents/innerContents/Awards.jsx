@@ -5,7 +5,7 @@ function Awards() {
 
     return (
         <>
-            <div className = "pl-3 pr-3 pt-3 pb-3">
+            <div id="Awards" className = "pl-3 pr-3 pt-3 pb-3">
                 <h1 className = "text-[1.7rem] lg:text-[3.5vw] md:text-[3.9vw] text-center font-semibold ">Awards</h1>
                 <p className = "mt-[1rem] ">• UBC Dean scholar of science. </p>
                 <p className = "mt-[0.1rem] ">• AP Scholar award.  </p>

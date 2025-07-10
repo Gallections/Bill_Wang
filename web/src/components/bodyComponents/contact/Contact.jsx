@@ -73,13 +73,13 @@ function Contact() {
 
     return (
         <>
-            <div id= "contactBox" className = " z-10 contactBox mt-20 rounded-[2rem] w-[65rem] min-h-[35rem] p-10 flex flex-col items-center justify-center ">
-                <h1 className = "text-4xl font-medium">Let's Get In Touch!</h1>
+            <div id= "contactBox" className = " mb-[2rem] sm:mb-0 z-10 contactBox mt-20 rounded-[2rem] w-[100%] sm:w-[80%] min-h-[35rem] p-10 flex flex-col items-center justify-center ">
+                <h1 className = "text-4xl font-medium text-center">Let's Get In Touch!</h1>
                 <div className ="w-full h-auto flex flex-row items-center justify-center">
                     <p className = "mt-[1rem] text-base] mr-[0.5rem]">mosbill067@gmail.com | </p>
                     <a href = "https://www.linkedin.com/in/bill-wxng/" target= "_blank"><FaLinkedin className = "text-center text-xl mt-[1rem]" /></a>
                 </div>
-                <form onSubmit={handleSubmit} className=" p-10 flex flex-row flex-wrap w-[90%] h-auto justify-center">
+                <form onSubmit={handleSubmit} className=" pr-0 pl-0 pt-10 pb-10 sm:p-10 flex flex-row flex-wrap w-[90%] h-auto justify-center">
                     <InputBox placeholder={"Name"} name= "name" value = {formData.name} onChange = {handleChange} width="20.8rem" height= "3.2rem" />
                     <InputBox placeholder={"Email"} name= "email" value = {formData.email} onChange = {handleChange} width="20.8rem" height= "3.2rem" />
                     <InputBox placeholder={"Phone"} name= "phone" value = {formData.phone} onChange = {handleChange} width="20.8rem" height= "3.2rem" />

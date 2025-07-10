@@ -15,7 +15,7 @@ function ProfileMain() {
         <>
             <div className="relative">
                 {/* Top Bar (Fixed at the top) */}
-                <div className="fixed top-0 left-0 w-full z-20">
+                <div className="fixed top-5 sm:top-10 left-0 w-full z-20">
                     <TopBarContainer />
                 </div>
 

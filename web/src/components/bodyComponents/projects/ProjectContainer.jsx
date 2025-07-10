@@ -13,7 +13,7 @@ function ProjectContainer() {
 
     return (
         <>
-            <div id= "project-section" className = "projectBox shadow-[0_5px_15px_rgba(0,0,0,0.35)] mt-[5rem] pt-[3rem] pb-3 rounded-[2rem] pl-5 pr-5 border-4 w-[65rem] flex flex-col hover:">
+            <div id= "project-section" className = "projectBox shadow-[0_5px_15px_rgba(0,0,0,0.35)] mt-[5rem] pt-[3rem] pb-3 pl-2 pr-2 rounded-[2rem] border-4 w-[100%] sm:w-[90%] md:pl-5 md:pr-5 flex flex-col ">
                 <h1 className = "text-center text-4xl font-semibold">Projects</h1>
                 <div className = "w-[100%] flex flex-row mt-9 p-5 items-center flex-wrap gap-10 justify-center">
                     <Project imagePath={MathPaste} 

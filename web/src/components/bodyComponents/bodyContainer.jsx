@@ -9,7 +9,7 @@ function BodyContainer() {
 
     return (
         <>
-            <div className = "outer-most flex flex-col p-5 w-auto h-[100%] items-center justify-center">
+            <div className = "outer-most flex flex-col p-2 md:p-5 w-auto h-[100%] items-center justify-center">
                 <IntroContainer />
                 <ContentContainer />
                 <ProjectContainer />

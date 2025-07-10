@@ -12,7 +12,7 @@ function ContentPage({id}) {
 
     return (
         <>
-            <div className = "flex flex-col w-[90%] p-[2rem] items-center justify-center text-[0.9rem] md:text-[1.55vw] lg:text-[1.35vw]">
+            <div className = "flex flex-col w-[90%] pl-[0] pr-[0] pt-[2rem] pb-[2rem] items-center justify-center text-[0.9rem] md:text-[1.55vw] lg:text-[1.35vw]">
                 {(id == 'About') ?
                     <About /> :
                     (id == "Experience") ?
