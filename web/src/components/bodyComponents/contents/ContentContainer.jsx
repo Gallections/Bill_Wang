@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect, useRef} from 'react'
 import "../../.././index.css"
 import ContentPage from './ContentPage';
 import {BrowserRouter as Router, Route, Routes, useLocation} from 'react-router-dom';
@@ -6,14 +6,24 @@ import {BrowserRouter as Router, Route, Routes, useLocation} from 'react-router-
 function ContentContainer() {
     // Adding useLocation makes sure it also scrolls to the sections that uses routers.
     const location = useLocation();
+    const hasNavigated = useRef(false);
+    const initialPath = useRef(location.pathname);
 
     useEffect(() => {
-        const contentElement = document.getElementById("content");
-        if (contentElement) {
-            contentElement.scrollIntoView({ behavior: "smooth" });
+        // Only scroll if this is not the initial page load
+        // Check if the current path is different from the initial path
+        if (location.pathname !== initialPath.current) {
+            hasNavigated.current = true;
         }
-    }, [location.pathname]); // Scroll every time the route changes
 
+        // Only scroll if user has navigated (not on initial load)
+        if (hasNavigated.current) {
+            const contentElement = document.getElementById("content");
+            if (contentElement) {
+                contentElement.scrollIntoView({ behavior: "smooth" });
+            }
+        }
+    }, [location.pathname]); // Scroll every time the route changes (except initial load)
 
     return (
         <>
