@@ -143,6 +143,43 @@ html {
     background-color: whitesmoke;
 }
 
+/* Enhanced Dynamic Typewriter Animation */
+.dynamic-typewriter {
+    font-family: "Nunito";
+    font-size: 2rem;
+    min-height: 1.2em; /* Prevents layout shift during typing */
+    display: flex;
+    align-items: center;
+}
+
+.typewriter-cursor {
+    font-weight: 100;
+    color: #FE6E00;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50% { 
+        opacity: 1; 
+    }
+    51%, 100% { 
+        opacity: 0; 
+    }
+}
+
+@media(max-width:600px) {
+    .dynamic-typewriter {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:1100px) {
+    .dynamic-typewriter {
+        font-size: 1.2rem;
+    }
+}
+
+/* Legacy typewriter styles (keeping for compatibility) */
 .typewriter .written {
     font-family: "Nunito";
     font-size: 2rem;
