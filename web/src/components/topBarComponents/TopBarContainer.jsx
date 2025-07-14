@@ -6,27 +6,19 @@ import DarkLightMode from './DarkLightMode';
 import NavBar from './navBar/NavBar';
 
 function TopBarContainer() {
-
-    const [hovered, setIsHovered] = useState(false);
-
-    const handleMouseEnter= () => {
-        if (!hovered) {
-            setIsHovered(true);
-        };
-    }
-
-    const handleMouseLeave= () => {
-        setIsHovered(!hovered)
-    }
     
     return (
         <>
-            <div className = "p-1 flex flex-row items-start justify-center ml-5 mt-1">
-                <Logo logoPath = {logo} />
-                <div className="flex items-center justify-center w-20 h-20">
-                    <DarkLightMode isDarkMode={true} />
+            <div className="p-1 flex flex-row items-center justify-between w-full px-5">
+                <div className="flex items-center">
+                    <Logo logoPath={logo} />
+                    <div className="flex items-center justify-center w-20 h-20 ml-4">
+                        <DarkLightMode isDarkMode={true} />
+                    </div>
                 </div>
-                <NavBar className="" mode= {hovered} onHover = {handleMouseEnter} onOut = {handleMouseLeave} rightMargin = {"0"}/>
+                <div className="flex items-center">
+                    <NavBar />
+                </div>
             </div>
         </>
     );

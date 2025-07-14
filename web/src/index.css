@@ -10,6 +10,37 @@ html {
     font-family: "Nunito";
 }
 
+/* Custom animations for navbar */
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+.slide-in {
+    animation: slideInRight 0.3s ease-out forwards;
+}
+
+.slide-out {
+    animation: slideOutRight 0.3s ease-in forwards;
+}
+
 .darkTheme {
     background-color: #0A0B2D;
     color: white;
@@ -21,13 +52,19 @@ html {
 }
 
 .darkTheme .navBar {
-    border-color: white;
-    background-color: #0A0B2D;
+    border-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(10, 11, 45, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: white;
 }
 
 .lightTheme .navBar {
-    border-color: #0A0B2D;
-    background-color: white;
+    border-color: rgba(10, 11, 45, 0.2);
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: #0A0B2D;
 }
 
 .darkTheme .introBox {
