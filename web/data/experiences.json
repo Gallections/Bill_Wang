@@ -1,0 +1,135 @@
+[
+    {
+        "colorTheme": "#FFFFFF",
+        "company": "UBC IT - Emerging Media Lab",
+        "time": "May 2025 - Sep 2025",
+        "role": "Unreal Engine Software Developer",
+        "companyIcon": "eml.jpg",
+        "descriptions": [
+            "Led the development of LoveLoop, an immersive 3D fertility awareness training application in Unreal Engine 5, project served to 70,000+ members of the University of British Columbia community for interactive learning.",
+            "Developed and deployed an internal inspective inventory system plugin, served 200+ engineers across UBC IT.",
+            "Engineered modular gameplay features via Unreal Blueprints, cutting iteration time by 40%.",
+            "Managed 100+ development tasks using Trello for in-team coordination, while overseeing project infrastructure through Amazon S3, server-side cloud services, and data tracking with Excel.",
+            "Integrated Perforce Helix Core to streamline collaboration and version control.",
+            "Authored 3+ technical documentation and developer journals to support maintainability and knowledge sharing."
+        ],
+        "descriptionIcon": "vr-glasses.svg",
+        "backgroundImage": "eml-bg.svg",
+        "link": "https://eml.ubc.ca/",
+        "gallery": [
+            {
+                "imageSrc": "/gallery-images/eml/summer-showcase.jpg",
+                "text": "Grateful for having the opportunity to present LoveLoop to the UBC community."
+            },
+            {
+                "imageSrc": "/gallery-images/eml/design-review.jpg",
+                "text": "Shocasing our project to faculty UBC faculty members and emerging media experts."
+            },
+            {
+                "imageSrc": "/gallery-images/eml/loveloop-team.jpg",
+                "text": "Capture the moment, the LoveLoop team forever."
+            },
+            {
+                "imageSrc": "/gallery-images/eml/eml.jpeg",
+                "text": "Capture the moment, the LoveLoop team forever."
+            }
+        ],
+        "techstack": [
+            "unreal.png",
+            "cpp.png",
+            "figma.png",
+            "blender.png",
+            "perforce.png",
+            "aws_s3.png",
+            "git.png",
+            "davinci.png",
+            "miro.png",
+            "github.png"
+        ]
+    },
+    {
+        "colorTheme": "#FFFFFF",
+        "company": "Multifaceted Innovation in NeuroTechnology",
+        "time": "June 2025 - Present",
+        "role": "Simulations Developer",
+        "companyIcon": "mint-logo.png",
+        "descriptions": [
+            "Engineered RL agents in Unity with ML-Agents Toolkit for sim-to-real bipedal locomotion.",
+            "Engineered RL agent logic in C#, tuned hyperparameters, applied domain randomization, and leveraged TensorBoard for real-time training visualization and performance tracking.",
+            "Architected a system identification data processing pipeline to enable reliable sim-to-real transfer of learned policies."
+        ],
+        "descriptionIcon": "robot.svg",
+        "backgroundImage": "eml-bg.svg",
+        "link": "https://ubcmint.github.io/index.html",
+        "gallery": [
+            {
+                "imageSrc": "/gallery-images/eml/summer-showcase.jpg",
+                "text": "Grateful for having the opportunity to present LoveLoop to the UBC community."
+            },
+            {
+                "imageSrc": "/gallery-images/eml/design-review.jpg",
+                "text": "Shocasing our project to faculty UBC faculty members and emerging media experts."
+            },
+            {
+                "imageSrc": "/gallery-images/eml/loveloop-team.jpg",
+                "text": "Capture the moment, the LoveLoop team forever."
+            },
+            {
+                "imageSrc": "/gallery-images/eml/eml.jpeg",
+                "text": "Capture the moment, the LoveLoop team forever."
+            }
+        ],
+        "techstack": [
+            "unity.png",
+            "csharp.svg",
+            "python.png",
+            "tensorboard.png",
+            "git.png",
+            "github.png"
+        ]
+    },
+    {
+        "colorTheme": "#ffffff",
+        "company": "UBC International Genetically Engineered Machine",
+        "time": "Feb 2025 - Present",
+        "role": "Frontend Engineer",
+        "companyIcon": "ubc-igem.png",
+        "descriptions": [
+            "Core frontend engineer of the official iGEM UBC 2025 wiki and UBC iGEM official website, delivering a fully responsive and accessible platform built with Astro, React, and TypeScript, featuring 200+ statically generated pages optimized for high load efficiency and performance.",
+            "Architected and implemented modular, reusable UI components, boosting iteration speed by 40%.",
+            "Built responsive layouts and interactive 3D visualizations using Three.js, improving engagement and interactivity."
+        ],
+        "descriptionIcon": "cyanobrick.svg",
+        "backgroundImage": "igem-logo.png",
+        "link": "https://ubcigem.com",
+        "gallery": [
+            {
+                "imageSrc": "/gallery-images/igem/igem-whole-team.jpg",
+                "text": "Grateful for having the opportunity to present LoveLoop to the UBC community."
+            },
+            {
+                "imageSrc": "/gallery-images/igem/igem-official-web-launch.jpg",
+                "text": "Shocasing our project to faculty UBC faculty members and emerging media experts."
+            },
+            {
+                "imageSrc": "/gallery-images/igem/igem-wiki-subteam.jpg",
+                "text": "Capture the moment, the LoveLoop team forever."
+            },
+            {
+                "imageSrc": "/gallery-images/igem/igem-whole-team-2.jpg",
+                "text": "Capture the moment, the LoveLoop team forever."
+            }
+        ],
+        "techstack": [
+            "ts.png",
+            "js.png",
+            "astro.png",
+            "react.png",
+            "threeJs.png",
+            "git.png",
+            "figma.png",
+            "html.png",
+            "github.png"
+        ]
+    }
+]

@@ -29,11 +29,11 @@ function ContentContainer() {
         <>
             <div id= "content" className = "flex fllex-row items-center justify-center w-[100%] pt-[2vh] pb-[2vh] h-auto mt-[1rem]">
                 <Routes>
-                    <Route path= "/" element = {<ContentPage id= "About" />}></Route>
-                    <Route path= "/experience" element = {<ContentPage id= "Experience" />}></Route>
-                    <Route path= "/extracurricular" element = {<ContentPage id= "Extracurricular" />}></Route>
-                    <Route path= "/skills" element = {<ContentPage id= "Skills" />}></Route>
-                    <Route path= "/awards" element = {<ContentPage id= "Awards" />}></Route>
+                    {/* <Route path="/about" element={<ContentPage id="About" />} /> */}
+                    <Route path= "/" element = {<ContentPage key={location.pathname} id= "Experience" />}></Route>
+                    <Route path= "/extracurricular" element = {<ContentPage key={location.pathname} id= "Extracurricular" />}></Route>
+                    <Route path= "/skills" element = {<ContentPage key={location.pathname} id= "Skills" />}></Route>
+                    <Route path= "/awards" element = {<ContentPage key={location.pathname} id= "Awards" />}></Route>
                 </Routes>
                 
             </div>

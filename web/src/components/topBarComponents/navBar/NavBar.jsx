@@ -23,13 +23,13 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
                 setIsActive('Contact');
                 return;
             }
+            if (hash === "#Intro"){
+                setIsActive('About');
+            }
             
             // Handle route-based navigation
             switch (path) {
                 case '/':
-                    setIsActive('About');
-                    break;
-                case '/experience':
                     setIsActive('Experience');
                     break;
                 case '/extracurricular':
@@ -44,7 +44,7 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
                 default:
                     // If no hash and not a recognized route, default to About
                     if (!hash) {
-                        setIsActive('About');
+                        setIsActive('Experience');
                     }
                     break;
             }
@@ -122,6 +122,10 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
 
     const handleActiveClick = (item) => {
         setIsActive(item);
+        // Scroll to top if About is clicked
+        if (item === 'About') {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
         // Close mobile menu when item is clicked
         setIsMobileMenuOpen(false);
     }
@@ -131,8 +135,8 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
     }
 
     const navItems = [
-        { title: 'About', link: '/' },
-        { title: 'Experience', link: '/experience' },
+        { title: 'About', link: '#Intro' },
+        { title: 'Experience', link: '/' },
         { title: 'Extracurricular', link: '/extracurricular' },
         { title: 'Skills', link: '/skills' },
         { title: 'Awards', link: '/awards' },

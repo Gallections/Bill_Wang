@@ -26,8 +26,6 @@ function ProfileMain() {
 
                 {/* Content Section (Scrollable) */}
                 <div className="mt-20 overflow-auto w-full p-4 z-20">
-                    {/* Add your content here, block below is just an example! */}
-                    {/* <div className = "bg-green-400 w-30 h-30"></div>  */}
                     <BodyContainer />
                 </div>
 
