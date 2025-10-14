@@ -1,6 +1,54 @@
 [
     {
         "colorTheme": "#FFFFFF",
+        "company": "Cyberium Group",
+        "time": "Sep 2025 - Present",
+        "role": "Game and Software Engineer",
+        "companyIcon": "cyberium-logo.jpg",
+        "descriptions": [
+            "Developed multiplayer gameplay features in Unity C# using Photon Fusion, contributing to scalable real-time networking and responsive player interactions for 10,000+ users.",
+            "Built intelligent Chat NPCs integrated with a Retrieval-Augmented Generation (RAG) backend in Python, enabling dynamic responses to 100+ enterprise-specific queries.",
+            "Architected modular backend infrastructure supporting 5+ core gameplay systems, cutting iteration speed by 80%.",
+            "Engineered game-backend communication pipelines, connecting game clients with backend server endpoints for real-time player statistics generation."
+        ],
+        "descriptionIcon": "controller.svg",
+        "backgroundImage": "cybergame.jpg",
+        "link": "https://www.cyberiumgroup.com/",
+        "gallery": [
+            {
+                "imageSrc": "/gallery-images/eml/summer-showcase.jpg",
+                "text": "Grateful for having the opportunity to present LoveLoop to the UBC community."
+            },
+            {
+                "imageSrc": "/gallery-images/eml/design-review.jpg",
+                "text": "Shocasing our project to faculty UBC faculty members and emerging media experts."
+            },
+            {
+                "imageSrc": "/gallery-images/eml/loveloop-team.jpg",
+                "text": "Capture the moment, the LoveLoop team forever."
+            },
+            {
+                "imageSrc": "/gallery-images/eml/eml.jpeg",
+                "text": "Capture the moment, the LoveLoop team forever."
+            }
+        ],
+        "techstack": [
+            "unity.png",
+            "unity-scm.png",
+            "csharp.svg",
+            "python.png",
+            "node.png",
+            "photon.png",
+            "azure.png",
+            "postman.svg",
+            "clickup.png",
+            "git.png",
+            "github.png",
+            "figma.png"
+        ]
+    },
+    {
+        "colorTheme": "#FFFFFF",
         "company": "UBC IT - Emerging Media Lab",
         "time": "May 2025 - Sep 2025",
         "role": "Unreal Engine Software Developer",
@@ -14,7 +62,7 @@
             "Authored 3+ technical documentation and developer journals to support maintainability and knowledge sharing."
         ],
         "descriptionIcon": "vr-glasses.svg",
-        "backgroundImage": "eml-bg.svg",
+        "backgroundImage": "loveloop.png",
         "link": "https://eml.ubc.ca/",
         "gallery": [
             {
@@ -63,20 +111,12 @@
         "link": "https://ubcmint.github.io/index.html",
         "gallery": [
             {
-                "imageSrc": "/gallery-images/eml/summer-showcase.jpg",
+                "imageSrc": "/gallery-images/mint/robot-training.png",
                 "text": "Grateful for having the opportunity to present LoveLoop to the UBC community."
             },
             {
-                "imageSrc": "/gallery-images/eml/design-review.jpg",
+                "imageSrc": "/gallery-images/mint/mlagents-training-ex.mp4",
                 "text": "Shocasing our project to faculty UBC faculty members and emerging media experts."
-            },
-            {
-                "imageSrc": "/gallery-images/eml/loveloop-team.jpg",
-                "text": "Capture the moment, the LoveLoop team forever."
-            },
-            {
-                "imageSrc": "/gallery-images/eml/eml.jpeg",
-                "text": "Capture the moment, the LoveLoop team forever."
             }
         ],
         "techstack": [

@@ -122,10 +122,6 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
 
     const handleActiveClick = (item) => {
         setIsActive(item);
-        // Scroll to top if About is clicked
-        if (item === 'About') {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
         // Close mobile menu when item is clicked
         setIsMobileMenuOpen(false);
     }

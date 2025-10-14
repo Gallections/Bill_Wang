@@ -19,8 +19,9 @@ function TimelineContainer({tc}) {
 
     return (
         <>  
+            <h3 className="mb-[2rem] ml-[2rem] font-bold italic text-start w-[100%] text-[1rem] md:text-[1.2rem]">{tc.time}</h3>
             <div className={`flex flex-col`} style={{ color: tc.colorTheme }}>
-                <h3 className="mb-[2rem] ml-[2rem] text-start w-[100%] text-[1rem] md:text-[1.2rem]">{tc.time}</h3>
+                
                 <div
                     className="bg-[#6562C0] flex flex-col p-[2rem] md:p-[3rem] bg-cover bg-center rounded-[1rem]"
                     style={{ backgroundImage: `url(/icons/${tc.backgroundImage})`,
@@ -29,9 +30,11 @@ function TimelineContainer({tc}) {
                     <div className="grid grid-cols-1 grid-rows-[1fr_1fr_1fr] md:grid-cols-[3fr_1fr] md:grid-rows-[1fr_50px]">
                         <h3 className="m-0 p-0 mt-2 md:mt-0 font-bold md:row-start-1 md:col-start-1 text-[1.5rem] md:text-[2rem] lg:text-[3vw]">{tc.company}</h3>
                         <p className="italic text-[1.2rem] md:text-[1.5rem] lg:text-[2vw] font-bold md:row-start-2 md:col-start-1">{tc.role}</p>
-                        <a href={tc.link} target="_blank">
-                            <img src={`/companies/${tc.companyIcon}`} alt="Company Icon" className="max-h-24 row-start-1 justify-self-start md:justify-self-end rounded md:row-span-2 md:col-start-2" />
-                        </a>
+                        
+                        {tc.companyIcon != "" && (
+                            <a href={tc.link} target="_blank">
+                                <img src={`/companies/${tc.companyIcon}`} alt="Company Icon" className="max-h-24 row-start-1 justify-self-start md:justify-self-end rounded md:row-span-2 md:col-start-2" />
+                            </a>)}
                     </div>
                     <button
                         className="mb-2 text-sm text-[#FF9204] underline self-start cursor-pointer"
@@ -47,12 +50,16 @@ function TimelineContainer({tc}) {
                         {
                             tc.descriptions.map((d)=> (
                                 <div className="flex items-center gap-6" key={d}>
-                                    <img className="w-7 h-7 md:w-10 md:h-10" src={`/icons/${tc.descriptionIcon}`} alt="description-icon" />
-                                    <p>{d}</p>
+                                    <img className="w-7 h-7 md:w-10 md:h-10" 
+                                        src={`/icons/${tc.descriptionIcon}`} 
+                                        alt="description-icon" 
+                                        />
+                                    <p style ={{textShadow: "2px 4px 3px rgba(0,0,0,0.3)"}}>{d}</p>
                                 </div>
                             ))
                         }
                     </div>
+                    {tc.gallery.length > 0 && (
                     <div className="flex items-center flex-wrap gap-[5%]" >
                         <div className="w-[100%] md:w-[60%] flex items-center">
                             {galleryIndex > 0 && (<img className="opacity-[0.5] w-8 h-8 cursor-pointer hover:opacity-100" 
@@ -69,13 +76,16 @@ function TimelineContainer({tc}) {
                             {tc.techstack.map((tech)=> (
                                 <img className="h-12 w-auto"
                                     src={`/techstack-icons/${tech}`} 
-                                    alt="techstack icon" key={tech} />
+                                    alt="techstack icon" key={tech} 
+                                    />
                             ))}
                         </div>
                     </div>
+                    )}
                 </div>
                 <div className="mb-[2rem] w-[13%] relative h-[5rem] border-r-[10px] border-r-[#28026e]">
-                    <div className="w-7 h-7 absolute right-[-19.5px] bottom-[-18px] rounded-[50%] bg-[#FF9204]"></div>
+                    <div className="w-7 h-7 absolute right-[-19.5px] bottom-[-18px] rounded-[50%] bg-[#FF9204]"
+                        style ={{boxShadow: "rgba(241, 100, 0, 1) 0px 5px 15px;"}}></div>
                 </div>
             </div>
         </>

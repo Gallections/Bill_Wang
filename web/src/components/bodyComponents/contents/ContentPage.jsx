@@ -7,6 +7,7 @@ import Skills from './innerContents/Skills';
 import Awards from './innerContents/Awards';
 import TimelineContainer from './innerContents/TimelineContainer';
 import experiences from '../../../../data/experiences.json';
+import extracurriculars from "../../../../data/extracurriculars.json"
 
 
 function ContentPage({id}) {
@@ -16,7 +17,7 @@ function ContentPage({id}) {
                 {
                     (id == "Experience") ?
                     <>
-                        <Experience />
+                        <h1 className = "text-[1.7rem] lg:text-[3.5vw] md:text-[3.9vw] text-center font-semibold">Experience</h1>
                         {
                             experiences.map((ex)=> (
                                 <TimelineContainer tc={ex} />
@@ -24,7 +25,15 @@ function ContentPage({id}) {
                         }
                     </>:
                     (id == "Extracurricular") ?
-                    <Extracurricular /> :
+                    <>
+                        <h1 className = "text-[1.7rem] lg:text-[3.5vw] md:text-[3.9vw] text-center font-semibold">Extracurricular</h1>
+                        {
+                            extracurriculars.map((ex)=> (
+                                <TimelineContainer tc={ex} />
+                            ))
+                        }
+                    </>
+                    :
                     (id == "Skills") ?
                     <Skills />  :
                     (id == "Awards") ?

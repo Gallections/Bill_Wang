@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 function NavBarItem({title, isActive, onClick, link, isMobile = false}) {
 
     const baseClasses = "cursor-pointer transition-all duration-300 ease-in-out font-medium text-center relative";
-    const desktopClasses = "px-4 py-2 mx-1 rounded-full hover:bg-[#FE6E00] hover:bg-opacity-20 hover:scale-105";
-    const mobileClasses = "w-full p-4 rounded-xl hover:bg-[#FE6E00] hover:bg-opacity-20 text-left";
+    const desktopClasses = "px-4 py-2 mx-1 rounded-full hover:bg-[var(--color-primary-orange)] hover:bg-opacity-20 hover:scale-105";
+    const mobileClasses = "w-full p-4 rounded-xl hover:bg-[var(--color-primary-orange)] hover:bg-opacity-20 text-left";
     
     // Fixed active state styling with proper text color and lower background opacity
-    const activeDesktopClasses = "text-white bg-[#FE6E00] bg-opacity-90 scale-105 shadow-md font-semibold";
-    const activeMobileClasses = "text-white bg-[#FE6E00] bg-opacity-90 shadow-md font-semibold";
+    const activeDesktopClasses = "text-white bg-[var(--color-primary-orange)] bg-opacity-90 scale-105 shadow-md font-semibold";
+    const activeMobileClasses = "text-white bg-[var(--color-primary-orange)] bg-opacity-90 shadow-md font-semibold";
     
     const combinedClasses = `${baseClasses} ${isMobile ? mobileClasses : desktopClasses} ${
         isActive 
