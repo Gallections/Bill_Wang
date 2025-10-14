@@ -16,20 +16,12 @@
         "link": "https://www.cyberiumgroup.com/",
         "gallery": [
             {
-                "imageSrc": "/gallery-images/eml/summer-showcase.jpg",
+                "imageSrc": "/gallery-images/cyberium/cyberium-team.jpg",
                 "text": "Grateful for having the opportunity to present LoveLoop to the UBC community."
             },
             {
-                "imageSrc": "/gallery-images/eml/design-review.jpg",
+                "imageSrc": "/gallery-images/cyberium/social.jpg",
                 "text": "Shocasing our project to faculty UBC faculty members and emerging media experts."
-            },
-            {
-                "imageSrc": "/gallery-images/eml/loveloop-team.jpg",
-                "text": "Capture the moment, the LoveLoop team forever."
-            },
-            {
-                "imageSrc": "/gallery-images/eml/eml.jpeg",
-                "text": "Capture the moment, the LoveLoop team forever."
             }
         ],
         "techstack": [

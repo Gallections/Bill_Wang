@@ -8,6 +8,9 @@ import Awards from './innerContents/Awards';
 import TimelineContainer from './innerContents/TimelineContainer';
 import experiences from '../../../../data/experiences.json';
 import extracurriculars from "../../../../data/extracurriculars.json"
+import skills from "../../../../data/skills.json";
+import awards from "../../../../data/awards.json";
+import SkillBlock from './innerContents/SkillBlock';
 
 
 function ContentPage({id}) {
@@ -35,7 +38,18 @@ function ContentPage({id}) {
                     </>
                     :
                     (id == "Skills") ?
-                    <Skills />  :
+                    <>
+                        <h1 className = "mb-[1rem] text-[1.7rem] lg:text-[3.5vw] md:text-[3.9vw] text-center font-semibold">Skills</h1>
+                        <div className="flex flex-col gap-[0.8rem] items-start justify-start w-[90%]">
+                            {
+                                skills.map((skillObj) => (
+                                    <SkillBlock skillObj={skillObj} />
+                                ))
+                            }
+                        </div>
+                        
+                    </> 
+                    :
                     (id == "Awards") ?
                     <Awards />:
                     <></>

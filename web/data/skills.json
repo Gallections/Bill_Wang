@@ -1,0 +1,75 @@
+[
+    {
+        "bgColor": "var(--color-tomato)",
+        "category" : "Languages",
+        "techStack": [
+            "python.png",
+            "java.png",
+            "js.png",
+            "ts.png",
+            "c.png",
+            "csharp.svg",
+            "cpp.png",
+            "sql.png",
+            "html.png",
+            "css.svg",
+            "r.png"
+        ]
+    }, 
+    {
+        "bgColor": "var(--color-primary-purple)",
+        "category" : "Game Engines + 3D Tools",
+        "techStack": [
+            "unreal.png",
+            "unity.png",
+            "threeJs.png",
+            "blender.png",
+            "davinci.png"
+        ]
+    }, 
+    {
+        "bgColor": "var(--color-primary-yellow)",
+        "category" : "Frameworks",
+        "techStack": [
+            "react.png",
+            "tailwindcss.png",
+            "astro.png",
+            "node.png",
+            "flask.png",
+            "fastapi.png",
+            "expressJs.png",
+            "vite.png"
+        ]
+    }, 
+    {
+        "bgColor": "var(--color-primary-green)",
+        "category" : "Dev Tools",
+        "techStack": [
+            "azure.png",
+            "aws_s3.png",
+            "unity-scm.png",
+            "perforce.png",
+            "postman.svg",
+            "postgresSql.png",
+            "figma.png",
+            "trello.png",
+            "miro.png",
+            "git.png",
+            "github.png"
+        ]
+    },
+    {
+        "bgColor": "var(--color-primary-blue)",
+        "category": "Libraries",
+        "techStack": [
+            "numpy.png",
+            "matplotlib.png",
+            "opencv.png",
+            "pandas.png",
+            "photon.png",
+            "tidyverse.png",
+            "Junit.png",
+            "mocha-chai.png"
+        ]
+    }
+]

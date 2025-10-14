@@ -59,19 +59,21 @@ function TimelineContainer({tc}) {
                             ))
                         }
                     </div>
-                    {tc.gallery.length > 0 && (
+                    
                     <div className="flex items-center flex-wrap gap-[5%]" >
-                        <div className="w-[100%] md:w-[60%] flex items-center">
-                            {galleryIndex > 0 && (<img className="opacity-[0.5] w-8 h-8 cursor-pointer hover:opacity-100" 
-                            src="/icons/arrow.svg" 
-                            alt="left arrow" 
-                            onClick = {e=> {e.preventDefault(); handlePrev();}}/>)}
-                            <Gallery obj={tc.gallery[galleryIndex]} />
-                            {galleryIndex < tc.gallery.length - 1 && (<img className="cursor-pointer opacity-[0.5] w-8 h-8 rotate-180 hover:opacity-100" 
+                        {tc.gallery.length > 0 && (
+                            <div className="w-[100%] md:w-[60%] flex items-center">
+                                {galleryIndex > 0 && (<img className="opacity-[0.5] w-8 h-8 cursor-pointer hover:opacity-100" 
                                 src="/icons/arrow.svg" 
-                                alt="right arrow" 
-                                onClick={e => {e.preventDefault(); handleNext();}} />)}
-                        </div>
+                                alt="left arrow" 
+                                onClick = {e=> {e.preventDefault(); handlePrev();}}/>)}
+                                <Gallery obj={tc.gallery[galleryIndex]} />
+                                {galleryIndex < tc.gallery.length - 1 && (<img className="cursor-pointer opacity-[0.5] w-8 h-8 rotate-180 hover:opacity-100" 
+                                    src="/icons/arrow.svg" 
+                                    alt="right arrow" 
+                                    onClick={e => {e.preventDefault(); handleNext();}} />)}
+                            </div>
+                        )}
                         <div className="flex flex-wrap justify-center items-center gap-[1rem] w-[100%] md:w-[35%] mt-[2rem] md:mt-0">
                             {tc.techstack.map((tech)=> (
                                 <img className="h-12 w-auto"
@@ -81,7 +83,7 @@ function TimelineContainer({tc}) {
                             ))}
                         </div>
                     </div>
-                    )}
+                
                 </div>
                 <div className="mb-[2rem] w-[13%] relative h-[5rem] border-r-[10px] border-r-[#28026e]">
                     <div className="w-7 h-7 absolute right-[-19.5px] bottom-[-18px] rounded-[50%] bg-[#FF9204]"
