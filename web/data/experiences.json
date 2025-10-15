@@ -18,10 +18,6 @@
             {
                 "imageSrc": "/gallery-images/cyberium/cyberium-team.jpg",
                 "text": "Grateful for having the opportunity to present LoveLoop to the UBC community."
-            },
-            {
-                "imageSrc": "/gallery-images/cyberium/social.jpg",
-                "text": "Shocasing our project to faculty UBC faculty members and emerging media experts."
             }
         ],
         "techstack": [
@@ -64,14 +60,6 @@
             {
                 "imageSrc": "/gallery-images/eml/design-review.jpg",
                 "text": "Shocasing our project to faculty UBC faculty members and emerging media experts."
-            },
-            {
-                "imageSrc": "/gallery-images/eml/loveloop-team.jpg",
-                "text": "Capture the moment, the LoveLoop team forever."
-            },
-            {
-                "imageSrc": "/gallery-images/eml/eml.jpeg",
-                "text": "Capture the moment, the LoveLoop team forever."
             }
         ],
         "techstack": [
@@ -142,14 +130,6 @@
             {
                 "imageSrc": "/gallery-images/igem/igem-official-web-launch.jpg",
                 "text": "Shocasing our project to faculty UBC faculty members and emerging media experts."
-            },
-            {
-                "imageSrc": "/gallery-images/igem/igem-wiki-subteam.jpg",
-                "text": "Capture the moment, the LoveLoop team forever."
-            },
-            {
-                "imageSrc": "/gallery-images/igem/igem-whole-team-2.jpg",
-                "text": "Capture the moment, the LoveLoop team forever."
             }
         ],
         "techstack": [

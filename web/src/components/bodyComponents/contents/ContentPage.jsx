@@ -11,6 +11,7 @@ import extracurriculars from "../../../../data/extracurriculars.json"
 import skills from "../../../../data/skills.json";
 import awards from "../../../../data/awards.json";
 import SkillBlock from './innerContents/SkillBlock';
+import AwardContainer from './innerContents/AwardContainer';
 
 
 function ContentPage({id}) {
@@ -51,7 +52,17 @@ function ContentPage({id}) {
                     </> 
                     :
                     (id == "Awards") ?
-                    <Awards />:
+                    <>
+                        <h1 className = "mb-[1rem] text-[1.7rem] lg:text-[3.5vw] md:text-[3.9vw] text-center font-semibold">Awards</h1>
+                        <div className = "flex flex-col gap-5 w-[100%]">
+                            {
+                                awards.map((award) => (
+                                    <AwardContainer award= {award} />
+                                ))
+                            }
+                        </div>
+                    </>
+                    :
                     <></>
                 }
 

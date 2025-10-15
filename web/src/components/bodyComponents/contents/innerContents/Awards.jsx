@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import "../../../.././index.css"
 
-function Awards() {
+function Awards({awardsList}) {
 
     return (
         <>

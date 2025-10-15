@@ -241,3 +241,33 @@ html {
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
+
+.award-container {
+    min-width: 80px;
+    max-width: 50px;
+    transition: all 2s ease-in-out;
+}
+
+.award-container .descr {
+    display:flex;
+    opacity: 0;
+}
+
+.award-container:hover {
+    max-width: 700px;
+}
+
+.award-container:hover .descr {
+    opacity: 1;
+}
+
+.award-container h3,
+.award-container p {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.award-container:hover h3,
+.award-container:hover p {
+    opacity: 1;
+}
