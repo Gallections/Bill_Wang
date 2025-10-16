@@ -16,11 +16,11 @@
         "gallery": [
             {
                 "imageSrc": "/gallery-images/art/flower.jpeg",
-                "text": "Grateful for having the opportunity to present LoveLoop to the UBC community."
+                "text": "Hope you enjoy the art!"
             },
             {
                 "imageSrc": "/gallery-images/art/art.jpeg",
-                "text": "Shocasing our project to faculty UBC faculty members and emerging media experts."
+                "text": "More art to be added..."
             }
         ],
         "techstack": [
