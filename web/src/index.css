@@ -243,31 +243,25 @@ html {
 }
 
 .award-container {
-    min-width: 80px;
-    max-width: 50px;
-    transition: all 2s ease-in-out;
-}
+    margin-left: 0;
+    transition: all 0.5s ease;
+    width: fit-content;
 
-.award-container .descr {
-    display:flex;
-    opacity: 0;
+    .img-cont {
+        background-color: tomato;
+    }
+
+    .descr {
+        box-sizing: border-box;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-right: 2px solid tomato;
+        border-top: 2px solid tomato;
+        border-bottom: 2px solid tomato;
+    }
 }
 
 .award-container:hover {
-    max-width: 700px;
+    margin-left: 100px;
 }
 
-.award-container:hover .descr {
-    opacity: 1;
-}
-
-.award-container h3,
-.award-container p {
-    opacity: 0;
-    transition: opacity 0.5s;
-}
-
-.award-container:hover h3,
-.award-container:hover p {
-    opacity: 1;
-}

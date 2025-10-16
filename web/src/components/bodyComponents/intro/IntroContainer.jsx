@@ -3,7 +3,7 @@ import "../../.././index.css"
 import profile from '../../.././assets/smiley-square.jpg'
 
 function IntroContainer() {
-    const phrases = ["Software Developer", "Emerging Technologist"];
+    const phrases = ["Software Engineer", "Emerging Technologist"];
     const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
     const [currentText, setCurrentText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);

@@ -37,7 +37,7 @@ function TimelineContainer({tc}) {
                             </a>)}
                     </div>
                     <button
-                        className="mb-2 text-sm text-[#FF9204] underline self-start cursor-pointer"
+                        className="mt-5 mb-2 text-sm text-[#FF9204] underline self-start cursor-pointer"
                         onClick={() => setShowDescriptions((prev) => !prev)}
                     >
                         {showDescriptions ? "Hide Details" : "Show Details"}

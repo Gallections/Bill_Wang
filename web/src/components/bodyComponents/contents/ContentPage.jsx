@@ -54,7 +54,7 @@ function ContentPage({id}) {
                     (id == "Awards") ?
                     <>
                         <h1 className = "mb-[1rem] text-[1.7rem] lg:text-[3.5vw] md:text-[3.9vw] text-center font-semibold">Awards</h1>
-                        <div className = "flex flex-col gap-5 w-[100%]">
+                        <div className = "md:pl-[3rem] flex flex-col gap-5 w-[100%]">
                             {
                                 awards.map((award) => (
                                     <AwardContainer award= {award} />
@@ -63,7 +63,14 @@ function ContentPage({id}) {
                         </div>
                     </>
                     :
-                    <></>
+                    <>
+                        <h1 className = "text-[1.7rem] lg:text-[3.5vw] md:text-[3.9vw] text-center font-semibold">Experience</h1>
+                        {
+                            experiences.map((ex)=> (
+                                <TimelineContainer tc={ex} />
+                            ))
+                        }
+                    </>
                 }
 
             </div>

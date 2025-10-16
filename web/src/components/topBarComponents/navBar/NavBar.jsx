@@ -32,6 +32,9 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
                 case '/':
                     setIsActive('Experience');
                     break;
+                case '/experience':
+                    setIsActive('Experience');
+                    break;
                 case '/extracurricular':
                     setIsActive('Extracurricular');
                     break;
@@ -132,7 +135,7 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
 
     const navItems = [
         { title: 'About', link: '#Intro' },
-        { title: 'Experience', link: '/' },
+        { title: 'Experience', link: '/experience' },
         { title: 'Extracurricular', link: '/extracurricular' },
         { title: 'Skills', link: '/skills' },
         { title: 'Awards', link: '/awards' },
@@ -217,7 +220,7 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
 
                         {/* Footer */}
                         <div className="p-6 border-t border-opacity-20">
-                            <p className="text-sm opacity-70 text-center">© 2024 Bill Wang</p>
+                            <p className="text-sm opacity-70 text-center">© {new Date().getFullYear()} Bill Wang</p>
                         </div>
                     </div>
                 </div>

@@ -46,7 +46,7 @@ function NavBarItem({title, isActive, onClick, link, isMobile = false}) {
 
     return (
         <div className={combinedClasses} onClick={handleClick}>
-            {(title === "Projects" || title === "Contact") ? (
+            {(title==="About" || title === "Projects" || title === "Contact") ? (
                 <a 
                     href={link} 
                     className="block w-full h-full relative text-inherit no-underline"

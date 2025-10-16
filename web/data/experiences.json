@@ -93,10 +93,6 @@
             {
                 "imageSrc": "/gallery-images/mint/robot-training.png",
                 "text": "Grateful for having the opportunity to present LoveLoop to the UBC community."
-            },
-            {
-                "imageSrc": "/gallery-images/mint/mlagents-training-ex.mp4",
-                "text": "Shocasing our project to faculty UBC faculty members and emerging media experts."
             }
         ],
         "techstack": [

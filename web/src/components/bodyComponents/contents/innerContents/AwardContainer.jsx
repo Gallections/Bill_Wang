@@ -4,13 +4,13 @@ function AwardContainer({award}) {
 
     return (
         <>
-            <div className="h-20 award-container flex border-box rounded-lg bg-orange-400 flex-start">
-                <div className="bg-green-200 min-w-20 rounded-lg p-2">
-                    <img className="w-15 h-15" src ={`/icons/${award.icon}`} alt="award icon" />
+            <div className="award-container flex flex-row items-center h-[90px]">
+                <div className="img-cont border-box p-[10px] aspect-square z-10 rounded-lg w-[90px]">
+                    <img className="rounded-md w-[70px] h-[70px] object-cover" src={`/icons/${award.icon}`} alt="award icon" />
                 </div>
-                <div className="descr flex p-5 rounded-lg justify-center flex-col gap-1 bg-orange-400">
-                    <h3 className="italic font-bold">{award.name}</h3>
-                    <p>{award.outcome}</p>
+                <div className="descr flex ml-[-10px] flex-col pl-[1.5rem] pr-[1rem] justify-center h-[90px]">
+                    <h3 className="text-[0.9rem] md:text-[1.1rem]">{award.name}</h3>
+                    <p className="italic text-[0.7rem] md:text-sm">{award.outcome}</p>
                 </div>
             </div>
         </>
