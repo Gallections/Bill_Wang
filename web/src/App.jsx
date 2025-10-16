@@ -8,9 +8,7 @@ function App() {
 
   return (
     <>
-      <Router basename="/Bill_Wang">
         <ProfileMain />
-      </Router>
     </>
   )
 }
