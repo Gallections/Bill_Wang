@@ -1,0 +1,143 @@
+[
+    {
+        "colorTheme": "#FFFFFF",
+        "company": "Cyberium Group",
+        "time": "Sep 2025 - Present",
+        "role": "Game and Software Engineer",
+        "companyIcon": "cyberium-logo.jpg",
+        "descriptions": [
+            "Developed multiplayer gameplay features in Unity C# using Photon Fusion, contributing to scalable real-time networking and responsive player interactions for 10,000+ users.",
+            "Built intelligent Chat NPCs integrated with a Retrieval-Augmented Generation (RAG) backend in Python, enabling dynamic responses to 100+ enterprise-specific queries.",
+            "Architected modular backend infrastructure supporting 5+ core gameplay systems, cutting iteration speed by 80%.",
+            "Engineered game-backend communication pipelines, connecting game clients with backend server endpoints for real-time player statistics generation."
+        ],
+        "descriptionIcon": "controller.svg",
+        "backgroundImage": "cybergame.jpg",
+        "link": "https://www.cyberiumgroup.com/",
+        "gallery": [
+            {
+                "imageSrc": "/gallery-images/cyberium/cyberium-team.jpg",
+                "text": "Very honored and happy to join the team!"
+            }
+        ],
+        "techstack": [
+            "unity.png",
+            "unity-scm.png",
+            "csharp.svg",
+            "python.png",
+            "node.png",
+            "photon.png",
+            "azure.png",
+            "postman.svg",
+            "clickup.png",
+            "git.png",
+            "github.png",
+            "figma.png"
+        ]
+    },
+    {
+        "colorTheme": "#FFFFFF",
+        "company": "UBC IT - Emerging Media Lab",
+        "time": "May 2025 - Sep 2025",
+        "role": "Unreal Engine Software Developer",
+        "companyIcon": "eml.jpg",
+        "descriptions": [
+            "Led the development of LoveLoop, an immersive 3D fertility awareness training application in Unreal Engine 5, project served to 70,000+ members of the University of British Columbia community for interactive learning.",
+            "Developed and deployed an internal inspective inventory system plugin, served 200+ engineers across UBC IT.",
+            "Engineered modular gameplay features via Unreal Blueprints, cutting iteration time by 40%.",
+            "Managed 100+ development tasks using Trello for in-team coordination, while overseeing project infrastructure through Amazon S3, server-side cloud services, and data tracking with Excel.",
+            "Integrated Perforce Helix Core to streamline collaboration and version control.",
+            "Authored 3+ technical documentation and developer journals to support maintainability and knowledge sharing."
+        ],
+        "descriptionIcon": "vr-glasses.svg",
+        "backgroundImage": "loveloop.png",
+        "link": "https://eml.ubc.ca/",
+        "gallery": [
+            {
+                "imageSrc": "/gallery-images/eml/summer-showcase.jpg",
+                "text": "Emerging Media Lab Project Summer shocase, 2025. Very honored to represent our Team to present our project LoveLoop!"
+            },
+            {
+                "imageSrc": "/gallery-images/eml/design-review.jpg",
+                "text": "Shocasing our project to UBC faculty members and emerging media experts."
+            }
+        ],
+        "techstack": [
+            "unreal.png",
+            "cpp.png",
+            "figma.png",
+            "blender.png",
+            "perforce.png",
+            "aws_s3.png",
+            "git.png",
+            "davinci.png",
+            "miro.png",
+            "github.png"
+        ]
+    },
+    {
+        "colorTheme": "#FFFFFF",
+        "company": "Multifaceted Innovation in NeuroTechnology",
+        "time": "June 2025 - Present",
+        "role": "Simulations Developer",
+        "companyIcon": "mint-logo.png",
+        "descriptions": [
+            "Engineered RL agents in Unity with ML-Agents Toolkit for sim-to-real bipedal locomotion.",
+            "Engineered RL agent logic in C#, tuned hyperparameters, applied domain randomization, and leveraged TensorBoard for real-time training visualization and performance tracking.",
+            "Architected a system identification data processing pipeline to enable reliable sim-to-real transfer of learned policies."
+        ],
+        "descriptionIcon": "robot.svg",
+        "backgroundImage": "eml-bg.svg",
+        "link": "https://ubcmint.github.io/index.html",
+        "gallery": [
+            {
+                "imageSrc": "/gallery-images/mint/robot-training.png",
+                "text": "Parallel ML agent training for bipedal robot in Unity for MINT's Neurorobotics project."
+            }
+        ],
+        "techstack": [
+            "unity.png",
+            "csharp.svg",
+            "python.png",
+            "tensorboard.png",
+            "git.png",
+            "github.png"
+        ]
+    },
+    {
+        "colorTheme": "#ffffff",
+        "company": "UBC International Genetically Engineered Machine",
+        "time": "Feb 2025 - Present",
+        "role": "Frontend Engineer",
+        "companyIcon": "ubc-igem.png",
+        "descriptions": [
+            "Core frontend engineer of the official iGEM UBC 2025 wiki and UBC iGEM official website, delivering a fully responsive and accessible platform built with Astro, React, and TypeScript, featuring 200+ statically generated pages optimized for high load efficiency and performance.",
+            "Architected and implemented modular, reusable UI components, boosting iteration speed by 40%.",
+            "Built responsive layouts and interactive 3D visualizations using Three.js, improving engagement and interactivity."
+        ],
+        "descriptionIcon": "cyanobrick.svg",
+        "backgroundImage": "igem-logo.png",
+        "link": "https://ubcigem.com",
+        "gallery": [
+            {
+                "imageSrc": "/gallery-images/igem/igem-whole-team.jpg",
+                "text": "Being part of UBC IGEM 2025 team!"
+            },
+            {
+                "imageSrc": "/gallery-images/igem/igem-official-web-launch.jpg",
+                "text": "IGEM website lauch party with my wonderful teammates in Design&Wiki team."
+            }
+        ],
+        "techstack": [
+            "ts.png",
+            "js.png",
+            "astro.png",
+            "react.png",
+            "threeJs.png",
+            "git.png",
+            "figma.png",
+            "html.png",
+            "github.png"
+        ]
+    }
+]

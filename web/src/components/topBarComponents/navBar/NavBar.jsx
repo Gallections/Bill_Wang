@@ -23,11 +23,14 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
                 setIsActive('Contact');
                 return;
             }
+            if (hash === "#Intro"){
+                setIsActive('About');
+            }
             
             // Handle route-based navigation
             switch (path) {
                 case '/':
-                    setIsActive('About');
+                    setIsActive('Experience');
                     break;
                 case '/experience':
                     setIsActive('Experience');
@@ -44,7 +47,7 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
                 default:
                     // If no hash and not a recognized route, default to About
                     if (!hash) {
-                        setIsActive('About');
+                        setIsActive('Experience');
                     }
                     break;
             }
@@ -131,7 +134,7 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
     }
 
     const navItems = [
-        { title: 'About', link: '/' },
+        { title: 'About', link: '#Intro' },
         { title: 'Experience', link: '/experience' },
         { title: 'Extracurricular', link: '/extracurricular' },
         { title: 'Skills', link: '/skills' },
@@ -217,7 +220,7 @@ function NavBar({ onHover, onOut, mode, rightMargin}) {
 
                         {/* Footer */}
                         <div className="p-6 border-t border-opacity-20">
-                            <p className="text-sm opacity-70 text-center">© 2024 Bill Wang</p>
+                            <p className="text-sm opacity-70 text-center">© {new Date().getFullYear()} Bill Wang</p>
                         </div>
                     </div>
                 </div>

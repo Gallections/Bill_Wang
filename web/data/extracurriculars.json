@@ -1,0 +1,67 @@
+[
+    {
+        "colorTheme": "#ffffff",
+        "company": "Chinese Traditional Painting",
+        "time": "2016 - present",
+        "role": "",
+        "companyIcon": "",
+        "descriptions": [
+            "Having started Chinese traditional paiting and calligraphy at a young age, it's impact still lingers on me to today.",
+            "I was really fortunate to have claimed gold at a very young age across many provincial/municipal competitions.",
+            "Thanks to this very dearest passion that shapes me who I am today."
+        ],
+        "descriptionIcon": "brush.svg",
+        "backgroundImage": "me_with_art.jpeg",
+        "link": "",
+        "gallery": [
+            {
+                "imageSrc": "/gallery-images/art/flower.jpeg",
+                "text": "Hope you enjoy the art!"
+            },
+            {
+                "imageSrc": "/gallery-images/art/art.jpeg",
+                "text": "More art to be added..."
+            }
+        ],
+        "techstack": [
+        ]
+    },
+    {
+        "colorTheme": "#FFFFFF",
+        "company": "Math Competitions",
+        "time": "2020 - 2023",
+        "role": "Top 3% in Canada in CSMC, expand to learn more",
+        "companyIcon": "math-comp.svg",
+        "descriptions": [
+            "Participated across 10+ math competitions since 2020",
+            "Scored 43/60 on Canadian Senior math competition in 2023, earned top 3% Nationally and honored to be included in the BC champion school team.",
+            "Scored 34/40 in Hypatia math contest in 2022, earned top 5% nationally",
+            "Earned Award of distinction in Euclid (score 77/100) in 2022 + 2023, Pascal, COMC, and etc"
+        ],
+        "descriptionIcon": "compass.svg",
+        "backgroundImage": "math-contests-bg.jpg",
+        "link": "https://cemc.uwaterloo.ca/contests/csimc",
+        "gallery": [
+        ],
+        "techstack": [
+        ]
+    },
+    {
+        "colorTheme": "#ffffff",
+        "company": "Invasive Species Council of Metro Vancouver",
+        "time": "Apr 2022 - Nov 2022",
+        "role": "Enviornment Specialist Volunteer",
+        "companyIcon": "iscmv.jpg",
+        "descriptions": [
+            "Participated in ISCMV's annual planting events in attempt to restore BC local vegetations.",
+            "Identify and perform invasive plant species removal and sample collection through team collaboration"
+        ],
+        "descriptionIcon": "plant.svg",
+        "backgroundImage": "iscmv-bg.jpg",
+        "link": "https://iscmv.ca/",
+        "gallery": [
+        ],
+        "techstack": [
+        ]
+    }
+]

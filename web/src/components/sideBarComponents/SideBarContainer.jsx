@@ -14,8 +14,6 @@ function SideBarContainer() {
                 <SideBarItem icon = {<FaLinkedin className = {iconStyles} />} link="https://www.linkedin.com/in/bill-wxng/" />
                 <SideBarItem icon = {<FaGithub className = {iconStyles} />} link="https://github.com/Gallections" />
                 <SideBarItem icon = {<AiFillMail className = {iconStyles} />} link="mailto:mosbill067@gmail.com" />
-                <SideBarItem icon = {<FaTwitter className = {iconStyles} />}  link="#" />
-                <SideBarItem icon = {<FaInstagram className = {iconStyles} />} link="#" />
             </div>
         </>
     )

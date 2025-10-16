@@ -8,6 +8,24 @@
 html {
     scroll-behavior: smooth;
     font-family: "Nunito";
+
+    --color-primary-orange: #FE6E00;
+    --color-secondary-orange: #FF9204;
+    --color-tomato: #FF6347;
+    --color-primary-purple: #7571F0;
+    --color-primary-green: #6BAB76;
+    --color-primary-yellow: #ffb300;
+    --color-primary-blue: #b7e6f5;
+
+}
+
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Inspiration';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/inspiration.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* Custom animations for navbar */
@@ -42,12 +60,14 @@ html {
 }
 
 .darkTheme {
-    background-color: #0A0B2D;
+    /* background-color: #0A0B2D; */
+    background: linear-gradient(135deg, #0A0B2D 0%, #292b4e 50%, #4f5186 100%);
     color: white;
 }
 
 .lightTheme {
-    background-color: white;
+    /* background-color: white; */
+    background: linear-gradient(105deg, #ffffff 0%, #f0f9ff 50%, #DBEAFE 100%);
     color: #0A0B2D;
 }
 
@@ -68,11 +88,13 @@ html {
 }
 
 .darkTheme .introBox {
-    background-color: rgb(79, 81, 134);
+    /* background-color: rgb(79, 81, 134); */
+    background: linear-gradient(135deg, rgb(108, 110, 166) 0%, #4f5186 50%, #292b4e 100%);
 }
 
 .lightTheme .introBox {
-    background-color: #DBEAFE;
+    /* background-color: #DBEAFE; */
+    background: linear-gradient(135deg, #DBEAFE 0%, #a7c7f8 50%, #f0f9ff 100%);
 }
 
 .darkTheme .projectBg {
@@ -150,6 +172,8 @@ html {
     min-height: 1.2em; /* Prevents layout shift during typing */
     display: flex;
     align-items: center;
+    color: #f19306;
+    text-shadow: #ffcc00 1px 0 10px;
 }
 
 .typewriter-cursor {
@@ -217,3 +241,27 @@ html {
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
+
+.award-container {
+    margin-left: 0;
+    transition: all 0.5s ease;
+    width: fit-content;
+
+    .img-cont {
+        background-color: tomato;
+    }
+
+    .descr {
+        box-sizing: border-box;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-right: 2px solid tomato;
+        border-top: 2px solid tomato;
+        border-bottom: 2px solid tomato;
+    }
+}
+
+.award-container:hover {
+    margin-left: 100px;
+}
+
